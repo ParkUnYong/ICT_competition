@@ -1,0 +1,74 @@
+.uploadPicturesWrapper div {
+   justify-content: flex-start !important;
+
+}
+
+.fileContainer{
+  width:370px;
+  height: 480px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.fileContainer2{
+  width: 576px;
+  height: 324px;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fileContainer3{
+  width: 512px;
+  height: 512px;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.fileContainer4{
+  width: 576px;
+  height: 324px;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.fileContainer5{
+  width: 576px;
+  height: 324px;
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  
+.uploadPictureContainer {
+  width: 150px !important;
+  height: auto !important;
+  margin: 1% 4% !important;
+  padding: 4px !important;
+}
+  
+.uploadPictureContainer img {
+  height: 200px !important;
+}
+
+.btn1{
+    display: none;
+}
+
+.margin2{
+    margin-top: 50px;
+}
