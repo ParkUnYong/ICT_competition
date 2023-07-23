@@ -6,7 +6,7 @@ import Home from './screens/Home';
 import About from './screens/About';
 import Project from './screens/Project';
 import NavBarElements from './components/Navbar/NavBarElements';
-import header from './assets/images/image2.jpg'
+import header from './assets/images/image7.jpg'
 import { HeaderImage } from './components/Styles/Header/LectureHeader.style'
 
 function App() {

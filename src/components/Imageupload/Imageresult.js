@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LoadingButton from '../button/Lodingbuttton';
 import '../../App.css' 
-import sample from '../../assets/images/blending.png'
 import Button from 'react-bootstrap/Button';
 
 function simulateNetworkRequest(props) {
@@ -31,7 +30,7 @@ const Imageresult = ({result}) => {
   return (
     <div>
       <div className='areaSize'>
-        <h4>after</h4>
+        <h4>output</h4>
         <hr />
         {!source && <div className='fileContainer3'></div>}
         {source && (
@@ -39,7 +38,7 @@ const Imageresult = ({result}) => {
             <img
               className='imgInput_img'
               width="512px"
-              height="512px"
+              height="480px"
               controls
               src={source}
               alt=""

@@ -4,7 +4,7 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div><h1>About Page</h1></div>
+    <div><h1>Project</h1></div>
    )
 }
 

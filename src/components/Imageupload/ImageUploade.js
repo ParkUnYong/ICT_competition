@@ -42,7 +42,7 @@ class ImageUploade extends Component{
     return (
         <div>
             <div className='margin2'>
-                <h4 className='tmi'>before</h4>
+                <h4 className='tmi'>input</h4>
             </div>
            <hr />
 

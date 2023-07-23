@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import LoadingButton from '../button/Lodingbuttton';
 import '../../App.css' 
-import sample from '../../assets/video/sample.mp4'
 import Button from 'react-bootstrap/Button';
 
 function simulateNetworkRequest(props) {
@@ -35,7 +34,7 @@ const Videoload = ({result}) => {
   return (
     <div>
       <div className='areaSize' style={{width:"576px"}}>
-        <h4 className='tmi2'>after</h4>
+        <h4 className='tmi2'>output</h4>
         <hr />
         {!source && <div className='fileContainer2'></div>}
         {source && (
@@ -43,7 +42,7 @@ const Videoload = ({result}) => {
             <video
               className='VideoInput_video'
               width="576px"
-              height="324px"
+              height="480px"
               controls
               src={source}
             />
